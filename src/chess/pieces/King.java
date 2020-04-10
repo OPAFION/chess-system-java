@@ -6,13 +6,12 @@ import chess.Color;
 
 public class King extends ChessPiece {
 
-    public King(Color color, Board board) {
+    public King(Board board, Color color) {
         super(color, board);
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return "K";
     }
-
 }
